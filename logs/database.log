@@ -2673,3 +2673,11 @@ index creation(creation))
 			COLLATE=utf8mb4_unicode_ci
 2024-08-06 16:25:15,185 WARNING database DDL Query made to DB:
 ALTER TABLE `tabLibrary Transaction` ADD COLUMN `article` varchar(140), ADD COLUMN `library_member` varchar(140), ADD COLUMN `type` varchar(140), ADD COLUMN `date` date
+2024-08-07 12:27:34,528 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `published` tinyint NOT NULL DEFAULT 0
+2024-08-07 12:29:23,349 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2024-08-09 11:06:38,156 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` MODIFY `published` tinyint NOT NULL DEFAULT 0
+2024-08-10 00:01:26,948 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` MODIFY `published` tinyint NOT NULL DEFAULT 0
