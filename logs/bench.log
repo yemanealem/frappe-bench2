@@ -195,3 +195,5 @@
 2024-08-10 08:49:55,097 INFO /home/yemane/.local/bin/bench schedule
 2024-08-10 08:49:55,105 INFO /home/yemane/.local/bin/bench worker
 2024-08-10 12:00:01,439 INFO /home/yemane/.local/bin/bench --verbose --site all backup
+2024-08-12 00:00:01,575 INFO /home/yemane/.local/bin/bench --verbose --site all backup
+2024-08-13 12:00:01,982 INFO /home/yemane/.local/bin/bench --verbose --site all backup

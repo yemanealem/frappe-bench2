@@ -52,3 +52,15 @@ Backup Summary for library.com at 2024-08-10 12:00:02.608701
 Config  : /home/yemane/frappe-bench2/sites/library.com/private/backups/20240810_120001-library_com-site_config_backup.json 152.0B
 Database: /home/yemane/frappe-bench2/sites/library.com/private/backups/20240810_120001-library_com-database.sql.gz 273.3KiB
 Backup for Site library.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5f084607ef6bc66 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5f084607ef6bc66 | /usr/bin/gzip >> ./library.com/private/backups/20240812_000002-library_com-database.sql.gz
+
+Backup Summary for library.com at 2024-08-12 00:00:03.357680
+Config  : /home/yemane/frappe-bench2/sites/library.com/private/backups/20240812_000002-library_com-site_config_backup.json 152.0B
+Database: /home/yemane/frappe-bench2/sites/library.com/private/backups/20240812_000002-library_com-database.sql.gz 273.8KiB
+Backup for Site library.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5f084607ef6bc66 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5f084607ef6bc66 | /usr/bin/gzip >> ./library.com/private/backups/20240813_120003-library_com-database.sql.gz
+
+Backup Summary for library.com at 2024-08-13 12:00:03.823073
+Config  : /home/yemane/frappe-bench2/sites/library.com/private/backups/20240813_120003-library_com-site_config_backup.json 152.0B
+Database: /home/yemane/frappe-bench2/sites/library.com/private/backups/20240813_120003-library_com-database.sql.gz 273.8KiB
+Backup for Site library.com has been successfully completed
